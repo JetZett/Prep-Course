@@ -7,7 +7,7 @@ const nuevaString = 'soy un crack';
 const nuevoNum = 1;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = 8 > 5;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -28,38 +28,40 @@ const nuevoModulo = 21 % 5 === 4.2;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
-}
+  return str
+} 
 
-function suma(x, y) {
+function suma(x, y) { 
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  return x + y
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  return x - y
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  return x * y
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  return x / y
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
-  // Tu código:
+  // Tu código: 
+  if (x != y) return false; if (x = y) return true;
   
 }
 
@@ -74,6 +76,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num < 90) return true; if (num > 90) return false;
   
 }
 
@@ -86,7 +89,7 @@ function mayorQueCincuenta(num) {
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
-  // Tu código:
+  // Tu código: var producto = x % y; return producto;
   
 }
 
